@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Didot, serif;
+    color: #fcf5af;
+    background-color: #100c0b;
+}
+
+.eyebrow {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f0a533;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+    background-color: #000000;
+    color: #ff0018;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#titulo-principal {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ff0018;
+}
+
+.topo .eyebrow {
+    margin-bottom: 4px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.menu-item {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff0018;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #282723;
+    color: #000000;
+    padding: 48px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.texto-apresentacao {
+    flex: 1;
+}
+
+.texto-apresentacao h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fcf5af;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.texto-apresentacao p {
+    font-size: 15px;
+    color: #fcf5af;
+    text-align: center;
+}
+
+.personagens {
+    padding: 20px;
+    background-color: #000000;
+    color: #fcf5af;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.personagens h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff0018;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    flex: 1;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ff0018;
+    padding: 5px;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.4;
+    color: #fcf5af;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 24px;
+    background-color: #000000;
+    text-align: center;
+}
+
+footer p {
+    font-size: 13px;
+    color: #ff0018;
+}
